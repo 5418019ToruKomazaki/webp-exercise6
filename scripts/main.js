@@ -4,7 +4,6 @@ const thumbBar = document.querySelector('.thumb-bar');
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
-/* Looping through images */
 const images = [
     'images/pic1.jpg',
     'images/pic2.jpg',
@@ -13,6 +12,7 @@ const images = [
     'images/pic5.jpg'
 ];
 
+/* Looping through images */
 for(var i = 0; i < 5; i++) {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', images[i]);
